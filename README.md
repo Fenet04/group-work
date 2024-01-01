@@ -1,5 +1,5 @@
 PROJECT TITLE - PetPal: Streamlined Pet Adoption
-DESCRITION - PetPal is a local initiative aiming to make pet adoption more accessible. Through our platform, we help connect individuals with pets in need of homes within our 
+DESCRIPTION - PetPal is a local initiative aiming to make pet adoption more accessible. Through our platform, we help connect individuals with pets in need of homes within our 
              community. It's a simple solution fostering meaningful connections between people and pets.
 Group members:
   Bethel Dereje             UGR/1397/14
