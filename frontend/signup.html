@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption Sign-up Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="flex flex-col justify-center items-center">
+        <div>
+            <img src="images/adopt us.webp" alt="">
+        </div>
+        <form action="#" class="max-w-md my-10 h-auto bg-yellow-100 bg-opacity-70 rounded-lg shadow-md px-8 pt-6 pb-8">
+            <h1 class="text-2xl font-bold mb-4 uppercase">Sign up</h1>
+            <p>Already have an account? <a href="login.html" class="text-blue-500 hover:underline">Login</a></p> 
+            <div>
+                <div class="w-full md:w-full md:flex ">
+                    <div class="mb-4  md:inline-block pr-2">
+                        <div class="flex mb-2">
+                            <img src="images/user.png" alt="" width="25" height="25" class="mr-2">
+                            <label for="name" class="mr-2 font-bold">Name:</label>
+                        </div>
+                      <input type="text" id="name" placeholder="Enter Name" class="border border-gray-300 py-2 px-4 rounded-full shadow-md w-full" required>
+                    </div>
+                    <div class="mb-4  md:inline-block pl-2">
+                        <div class="flex mb-2">
+                            <img src="images/gmail.png" alt="" width="25" height="25" class="mr-2">
+                            <label for="email" class="mr-2 font-bold">Email:</label>
+                        </div>
+                      <input type="email" id="email" placeholder="Enter Email" class="border border-gray-300 py-2 px-4 rounded-full shadow-md w-full" required>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <div class="flex items-center mb-2">
+                        <img src="images/location-pin.png" alt="" width="25" height="25" class="mr-2">
+                        <label for="address" class="mr-2 font-bold">Address:</label>
+                    </div>
+                    <input type="text" placeholder="Enter Address" id="address" class="border border-gray-300 py-2 px-4 rounded-full shadow-md w-full" required>
+                </div>
+                <div class="mb-4">
+                    <div class="flex items-center mb-2">
+                        <img src="images/phone-call.png" alt="" width="25" height="25" class="mr-2">
+                        <label for="phone" class="mr-2 font-bold">Phone Number:</label>
+                    </div>
+                    <input type="number" placeholder="Enter Phone No" id="phone" class="border border-gray-300 py-2 px-4 rounded-full shadow-md w-full" required>
+                </div>
+                <div class="mb-4">
+                    <div class="flex items-center mb-2">
+                        <img src="images/padlock.png" alt="" width="25" height="25" class="mr-2">
+                        <label for="password" class="mr-2 font-bold">Password:</label>
+                    </div>
+                    <input type="password" placeholder="Enter Password" id="password" required class="border border-gray-300 py-2 px-4 rounded-full shadow-md w-full">
+                </div>
+                <button class="flex mx-auto bg-yellow-400 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-full shadow-md">Create Account</button>
+            </div>
+            
+        </form>
+    </section>
+</body>
+</html>
