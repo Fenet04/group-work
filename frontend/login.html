@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>pet adoption Login page</title> 
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    </head> 
+    <body style="background-image: url('images/pngwing.com.png'); background-size: cover;  background-position: center;" class="bg-no-repeat px-4 py-4">
+        <div class="container mx-auto">
+            <div class="flex justify-center items-center h-screen">
+                <form action="#" class=" h-auto bg-yellow-100 bg-opacity-70 rounded-lg shadow-md px-8 pt-6 pb-8">
+                    <h1 class="text-3xl font-bold mb-4 text-center uppercase">Login</h1>
+                    <p class="mb-4">Don’t have an account? <a href="signup.html" class="text-blue-400 hover:underline">Register now</a></p>
+                    <div class="mb-4">
+                        <div class="flex items-center mb-2">
+                            <img src="images/gmail.png" alt="" width="25" height="25" class="mr-2">
+                            <label for="email" class="mr-2 font-bold">Email:</label>
+                        </div>
+                        <input type="email" placeholder="Enter Email" id="email" required class="border border-gray-300 py-2 px-4 rounded-full shadow-md w-full">
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex items-center mb-2">
+                            <img src="images/padlock.png" alt="" width="25" height="25" class="mr-2">
+                            <label for="password" class="mr-2 font-bold">Password:</label>
+                        </div>
+                        <input type="password" placeholder="Enter Password" id="password" required class="border border-gray-300 py-2 px-4 rounded-full shadow-md w-full">
+                    </div>
+                    <p class="mb-4">
+                        <a href="#" class="text-blue-400">Forgot password</a>
+                    </p>
+                    <button type="submit" class="bg-yellow-400 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-full shadow-md w-full">Login</button>
+                </form>
+            </div>
+        </div>
+    </body> 
+</html>
