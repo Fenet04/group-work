@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../frontend/src/output.css" rel="stylesheet">
+</head>
+<body class="bg-orange-100">
+
+    <h2 class="font-bold flex justify-around text-3xl mb-10 mt-5 font-serif">Find Pets To Adopt!</h2>
+    
+
+    
+    <div id="pets-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+        
+    </div>
+    <div id="petInfo"></div>
+    <div>
+        <form id="form" class=" bg-orange-100 h-full space-y-2 shadow-lg fixed inset-0 flex flex-col items-center justify-center z-10 hidden">
+          
+          <h3 class="font-bold text-2xl">Adoption Form</h3>
+          <input type="text" class=" shadow-sm focus:shadow-lg h-10 py-2 px-4 rounded-lg border border-black" required placeholder="Enter your Name"><br>
+          <input type="text" class="h-10 py-2 px-4 rounded-lg border border-black" required placeholder="Enter your Email address"><br>
+          <input type="text" class="h-10 py-2 px-4 rounded-lg border border-black" required placeholder="Enter the id of the pet "><br>
+          <button onclick="adoptPet()" class="bg-lime-300 hover:bg-lime-500 py-2 px-4 rounded-lg">Submit</button> ,
+          <button onclick="displayList()" class="bg-red-300 hover:bg-red-500 font-bold py-2 px-4 rounded-lg" >Cancel</button>
+        </form>
+      </div>
+      </div>
+    
+  <script src="ap.js"></script>
+</body>
+</html>
